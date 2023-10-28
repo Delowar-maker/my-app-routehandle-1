@@ -35,15 +35,16 @@ import { NextResponse } from "next/server";
 
 //form data get
 //formData key value pairs
-export async function POST(req, res){
-    const formData = await req.formData();
-    let mobile = formData.get('mobile')
-    let postcode = formData.get('postcode')
-    let city = formData.get('city')
-    return NextResponse.json({
-        // value set 
-        mobile:mobile,
-        postcode: postcode,
-        city:city
-    })
-}
+
+// export async function POST(req, res){
+//     const formData = await req.formData();
+//     let mobile = formData.get('mobile')
+//     let postcode = formData.get('postcode')
+//     let city = formData.get('city')
+//     return NextResponse.json({
+//         // value set 
+//         mobile:mobile,
+//         postcode: postcode,
+//         city:city
+//     })
+// }
