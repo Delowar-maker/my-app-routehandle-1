@@ -2,6 +2,10 @@
 import { NextResponse } from "next/server";
 
 
+// যে সব value  key pair আকারে থাকে সে সবকে get করব।
+// Examples 1. headers 2.cookies 3.formData
+
+
 // Get
 // export async function GET(req,res){
 //     return NextResponse.json({msg:"I am Get Request"})
@@ -33,6 +37,9 @@ import { NextResponse } from "next/server";
 //     return NextResponse.json({mass:formData})
 // }
 
+
+// যে সব value  key pair আকারে থাকে সে সবকে get করব।
+// Examples 1. headers 2.cookies 3.formData
 //form data get
 //formData key value pairs
 

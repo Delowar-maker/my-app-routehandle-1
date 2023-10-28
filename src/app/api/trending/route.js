@@ -7,6 +7,9 @@ import { headers } from 'next/headers'
 
 // Reuest Header
 
+// যে সব value  key pair আকারে থাকে সে সবকে get করব।
+// Examples 1. headers 2.cookies 3.formData
+
 export async function GET(req,res){
     const headersList = headers()
    const apiKey = headersList.get('api-key');
